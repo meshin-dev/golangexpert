@@ -1582,6 +1582,10 @@ img.left {
   width: 40px;
 }
 
+.icon-img-48 {
+  width: 40px;
+}
+
 .icon-img-50 {
   width: 50px;
 }
@@ -10324,6 +10328,9 @@ header.in-box {
   }
   h1 {
     font-size: 35px;
+  }
+  h1.fz-40 {
+    font-size: 25px !important;
   }
   h1.fz-60 {
     font-size: 35px !important;

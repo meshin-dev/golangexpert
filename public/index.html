@@ -1,23 +1,61 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="en">
 <head>
-
     <!-- Metas -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="HTML5 Template Geekfolio Multi-Purpose themeforest">
-    <meta name="description" content="Geekfolio - Multi-Purpose HTML5 Template">
-    <meta name="author" content="">
+    <meta name="author" content="Dmitri Meshin">
 
-    <!-- Title  -->
-    <title>Geekfolio</title>
+    <title>GolangExpert | Senior Software Engineer, System Architect, DevOps, Team Lead</title>
+    <meta name="description" content="Meshin's portfolio – Senior Software Engineer, System Architect, DevOps expert, and Team Lead. Specializing in Golang, Python, NodeJS, Typescript, Docker, and high-load scalable backend systems.">
+    <meta name="keywords" content="Golang, Python, Python 3, Django, NodeJS, Typescript, ReactJS, DevOps, System Architect, Team Lead, Software Engineer, Backend Developer, Cloud Infrastructure, Kubernetes, CI/CD, Microservices, Websockets, Multithreading in Python, Celery Tasks, Containers Orchestration, Docker, Dockerfile, Docker Compose, Grafana Monitoring, Ethereum contracts sync, Elasticsearch, Redis, Postgres, High-load resistant and scalable architecture, Big Data">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://golangexpert.com/">
 
-    <!-- Favicon -->
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="GolangExpert | Senior Software Engineer, System Architect, DevOps, Team Lead">
+    <meta property="og:description" content="Meshin's portfolio – Senior Software Engineer, System Architect, DevOps expert, and Team Lead. Specializing in Golang, Python, NodeJS, Typescript, and building scalable, high-load backend systems.">
+    <meta property="og:url" content="https://golangexpert.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://golangexpert.com/assets/imgs/meshin.webp">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GolangExpert | Senior Software Engineer, System Architect, DevOps, Team Lead, Full Stack Developer">
+    <meta name="twitter:description" content="Meshin's portfolio – Expert in Golang, Python, NodeJS, Docker, Kubernetes, and cloud-native architecture.">
+    <meta name="twitter:image" content="https://golangexpert.com/assets/imgs/meshin.webp">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Dmitri Meshin",
+            "url": "https://golangexpert.com/",
+            "sameAs": [
+                "https://www.linkedin.com/in/meshin/",
+                "https://github.com/meshin-dev",
+                "https://smarter.day/"
+            ],
+            "jobTitle": "Senior Software Engineer, System Architect, DevOps, Team Lead, Full Stack Developer",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "GolangExpert"
+            },
+            "knowsAbout": [
+                "Golang", "Python", "Python 3", "Django", "NodeJS", "Typescript", "ReactJS",
+                "DevOps", "System Architecture", "Kubernetes", "Terraform", "CI/CD",
+                "Cloud Infrastructure", "Distributed Systems", "Full Stack Development",
+                "Websockets", "Multithreading in Python", "Celery Tasks", "Containers Orchestration",
+                "Docker", "Dockerfile", "Docker Compose", "Grafana Monitoring", "Ethereum contracts sync",
+                "Elasticsearch", "Redis", "Postgres", "High-load resistant and scalable architecture", "Big Data"
+            ]
+        }
+    </script>
+
     <link rel="shortcut icon" href="assets/imgs/favicon.ico">
 
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
@@ -26,20 +64,12 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
 
-    <!-- Plugins -->
     <link rel="stylesheet" href="assets/css/plugins.css">
-
-    <!-- Core Style Css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
-<body class="home-freelancer main-bg">
-
-
-
-    <!-- ==================== Start Loading ==================== -->
-
+<body class="main-bg">
     <div class="loader-wrap">
         <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
             <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
@@ -57,35 +87,18 @@
             </div>
         </div>
     </div>
-
-    <!-- ==================== End Loading ==================== -->
-
-
     <div class="cursor"></div>
-
-
-    <!-- ==================== Start progress-scroll-button ==================== -->
-
     <div class="progress-wrap cursor-pointer">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
-
-    <!-- ==================== End progress-scroll-button ==================== -->
-
-
     <div id="smooth-wrapper">
-
-
-        <!-- ==================== Start Navbar ==================== -->
-
         <nav class="navbar navbar-expand-lg main-bg">
             <div class="container">
 
-                <!-- Logo -->
-                <a class="logo icon-img-100" href="#">
-                    <img src="assets/imgs/logo-light.png" alt="logo">
+                <a class="logo icon-img-48" href="/" style="display: flex">
+                    <img src="assets/imgs/logo.png?v1" alt="logo" width="48" height="48"> Golang Expert
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -94,7 +107,6 @@
                     <span class="icon-bar"><i class="fas fa-bars"></i></span>
                 </button>
 
-                <!-- navbar links -->
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -139,16 +151,10 @@
             </div>
         </nav>
 
-        <!-- ==================== End Navbar ==================== -->
-
         <div id="smooth-content">
 
 
             <div class="main-box main-bg ontop">
-
-
-                <!-- ==================== Start Slider ==================== -->
-
                 <header class="header-freelancer full-height bord-thin-bottom valign position-re" data-overlay-dark="5"
                     data-scroll-index="0">
                     <div class="container">
@@ -156,10 +162,14 @@
                             <div class="col-lg-7">
                                 <div class="caption">
                                     <h6 class="fw-400 mb-15">Hello <span class="icon-img-30"><img
-                                                src="assets/imgs/svg-assets/hi.png" alt=""></span> , I'm Chadwick
-                                        Boseman.
+                                                src="assets/imgs/svg-assets/hi.png" alt=""></span> , My name is Dmitri Meshin.
                                     </h6>
-                                    <h1 class="fz-60">A Visual Designer Specializing in UI & UX</h1>
+                                    <h1 class="fz-40">
+                                        🔹 Senior Software Engineer <br />
+                                        🔹 System Architect <br />
+                                        🔹 DevOps <br />
+                                        🔹 Team Lead
+                                    </h1>
                                     <div class="row mt-50">
                                         <div class="col-lg-3 cal-act order2">
                                             <a href="portfolio-classic-grid.html"
@@ -208,50 +218,50 @@
                                         <div class="slide-har st1">
                                             <div class="box non-strok">
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>UI-UX Experience</span>
+                                                    <h4 class="d-flex align-items-center"><span>Full Stack Developer</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span>
                                                     </h4>
                                                 </div>
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>Web Development</span>
+                                                    <h4 class="d-flex align-items-center"><span>System Architect</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span></h4>
                                                 </div>
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>Digital Marketing</span>
+                                                    <h4 class="d-flex align-items-center"><span>Team Lead</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span>
                                                     </h4>
                                                 </div>
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>Product Design</span>
+                                                    <h4 class="d-flex align-items-center"><span>DevOps</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span></h4>
                                                 </div>
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>Mobile Solutions</span>
+                                                    <h4 class="d-flex align-items-center"><span>Golang, Python, NodeJS</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span>
                                                     </h4>
                                                 </div>
                                             </div>
                                             <div class="box non-strok">
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>UI-UX Experience</span>
+                                                    <h4 class="d-flex align-items-center"><span>Full Stack Developer</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span>
                                                     </h4>
                                                 </div>
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>Web Development</span>
+                                                    <h4 class="d-flex align-items-center"><span>System Architect</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span></h4>
                                                 </div>
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>Digital Marketing</span>
+                                                    <h4 class="d-flex align-items-center"><span>Team Lead</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span>
                                                     </h4>
                                                 </div>
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>Product Design</span>
+                                                    <h4 class="d-flex align-items-center"><span>DevOps</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span></h4>
                                                 </div>
                                                 <div class="item">
-                                                    <h4 class="d-flex align-items-center"><span>Mobile Solutions</span>
+                                                    <h4 class="d-flex align-items-center"><span>Golang, Python, NodeJS</span>
                                                         <span class="fz-50 ml-50 stroke icon">*</span>
                                                     </h4>
                                                 </div>
@@ -262,12 +272,6 @@
                             </div>
                         </div>
                     </section>
-
-                    <!-- ==================== End marq ==================== -->
-
-
-
-                    <!-- ==================== Start Services ==================== -->
 
                     <section class="serv-box section-padding" data-scroll-index="1">
                         <div class="container">
